@@ -926,7 +926,7 @@ class DBObjectSearch extends DBSearch
 				/** @var DBObjectSearch $oExisting */
 				if ($oExisting->GetClass() == $oFilter->GetClass())
 				{
-					$oExisting->MergeWith_InNamespace($oFilter, $oExisting->m_aClasses, $aAliasTranslation);
+					$oExisting->MergeWith_InNamespace($oFilter, $aClassAliases, $aAliasTranslation);
 					$bMerged = true;
 					break;
 				}
@@ -1008,7 +1008,7 @@ class DBObjectSearch extends DBSearch
 			{
 				if ($oExisting->GetClass() == $oFilter->GetClass())
 				{
-					$oExisting->MergeWith_InNamespace($oFilter, $oExisting->m_aClasses, $aAliasTranslation);
+					$oExisting->MergeWith_InNamespace($oFilter, $aClassAliases, $aAliasTranslation);
 					$bMerged = true;
 					break;
 				}
