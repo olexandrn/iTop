@@ -1180,7 +1180,8 @@ class DBObjectSearch extends DBSearch
 
 			$aAliasTranslation = array();
 			$oLeftFilter->RenameNestedQueriesAliasesInNameSpace($aRootClasses, $aAliasTranslation);
-			$oLeftFilter->MergeWith_InNamespace($oRightFilter, $aRootClasses, $aAliasTranslation);
+//			$oLeftFilter->MergeWith_InNamespace($oRightFilter, $aRootClasses, $aAliasTranslation);
+			$oLeftFilter->MergeWith_InNamespace($oRightFilter, $oLeftFilter->m_aClasses, $aAliasTranslation);
 			$oRightFilter->RenameNestedQueriesAliasesInNameSpace($aRootClasses, $aAliasTranslation);
 			$oLeftFilter->TransferConditionExpression($oRightFilter, $aAliasTranslation);
 			$aSearches[] = $oLeftFilter;
