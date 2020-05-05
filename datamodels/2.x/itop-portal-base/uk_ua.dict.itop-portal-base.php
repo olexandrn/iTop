@@ -67,14 +67,14 @@ Dict::Add('uk ua', 'Ukraine', 'Українська', array(
 
 // UserProfile brick
 Dict::Add('uk ua', 'Ukraine', 'Українська', array(
-	'Brick:Portal:UserProfile:Name' => 'User profile~~',
-	'Brick:Portal:UserProfile:Navigation:Dropdown:MyProfil' => 'My profile~~',
-	'Brick:Portal:UserProfile:Navigation:Dropdown:Logout' => 'Logoff~~',
-	'Brick:Portal:UserProfile:Password:Title' => 'Password~~',
-	'Brick:Portal:UserProfile:Password:ChoosePassword' => 'Choose password~~',
-	'Brick:Portal:UserProfile:Password:ConfirmPassword' => 'Confirm password~~',
-	'Brick:Portal:UserProfile:Password:CantChangeContactAdministrator' => 'To change your password, please contact your %1$s administrator~~',
-	'Brick:Portal:UserProfile:Password:CantChangeForUnknownReason' => 'Can\'t change password, please contact your %1$s administrator~~',
+	'Brick:Portal:UserProfile:Name' => 'Профіль користувача',
+	'Brick:Portal:UserProfile:Navigation:Dropdown:MyProfil' => 'Мій профіль',
+	'Brick:Portal:UserProfile:Navigation:Dropdown:Logout' => 'Вийти',
+	'Brick:Portal:UserProfile:Password:Title' => 'Пароль',
+	'Brick:Portal:UserProfile:Password:ChoosePassword' => 'Новий пароль',
+	'Brick:Portal:UserProfile:Password:ConfirmPassword' => 'Підтвердіть новий пароль',
+	'Brick:Portal:UserProfile:Password:CantChangeContactAdministrator' => 'Для зміни паролю зверніться до адміністратора %1$s, або у Службу підтримки користувачів',
+	'Brick:Portal:UserProfile:Password:CantChangeForUnknownReason' => 'Неможливо змінити пароль, будь ласка зверніться до адміністратора %1$s, або у Службу підтримки користувачів',
 	'Brick:Portal:UserProfile:PersonalInformations:Title' => 'Особиста інформація',
 	'Brick:Portal:UserProfile:Photo:Title' => 'Фото',
 ));
