@@ -21,7 +21,7 @@
 Dict::Add('uk ua', 'Ukraine', 'Українська', array(
 	'Page:DefaultTitle' => '%1$s User portal~~',
 	'Page:PleaseWait' => 'Please wait...~~',
-	'Page:Home' => 'Домашня',
+	'Page:Home' => 'Додому',
 	'Page:GoPortalHome' => 'Home page~~',
 	'Page:GoPreviousPage' => 'Previous page~~',
 	'Page:ReloadPage' => 'Reload page~~',
