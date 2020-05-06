@@ -16,6 +16,15 @@
  *
  * You should have received a copy of the GNU Affero General Public License
  */
+ 
+ /**
+ *
+ * @author      Nazarenko Olexandr <olexandr.n@gmail.com>
+ * @link        https://github.com/olexandrn/iTop
+ * @license     http://opensource.org/licenses/AGPL-3.0
+ *
+ */
+
 
 // Portal
 Dict::Add('uk ua', 'Ukraine', 'Українська', array(
@@ -88,8 +97,8 @@ Dict::Add('uk ua', 'Ukraine', 'Українська', array(
 Dict::Add('uk ua', 'Ukraine', 'Українська', array(
 	'Brick:Portal:Browse:Name' => 'Перегляд елементів',
 	'Brick:Portal:Browse:Mode:List' => 'Список',
-	'Brick:Portal:Browse:Mode:Tree' => 'Ієрархія',
-	'Brick:Portal:Browse:Mode:Mosaic' => 'Блоками',
+	'Brick:Portal:Browse:Mode:Tree' => 'Дерево',
+	'Brick:Portal:Browse:Mode:Mosaic' => 'Плитки',
 	'Brick:Portal:Browse:Action:Drilldown' => 'Деталізація',
 	'Brick:Portal:Browse:Action:View' => 'Детальніше',
 	'Brick:Portal:Browse:Action:Edit' => 'Редагувати',
