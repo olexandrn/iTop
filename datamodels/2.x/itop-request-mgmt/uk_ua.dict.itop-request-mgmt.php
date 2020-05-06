@@ -54,7 +54,7 @@ Dict::Add('uk ua', 'Ukraine', 'Українська', array(
 	'Menu:UserRequest:OpenRequests' => 'Усі відкриті запити',
 	'Menu:UserRequest:OpenRequests+' => 'Усі відкриті запити',
 	'UI:WelcomeMenu:MyAssignedCalls' => 'Запити мені на виконання',
-	'UI-RequestManagementOverview-RequestByType-last-14-days' => 'Типи запитів протягом останніх 14 днів',
+	'UI-RequestManagementOverview-RequestByType-last-14-days' => 'Типи запитів за останні 14 днів',
 	'UI-RequestManagementOverview-Last-14-days' => 'Кількість запитів за останні 14 днів',
 	'UI-RequestManagementOverview-OpenRequestByStatus' => 'Відкриті запити за статусом',
 	'UI-RequestManagementOverview-OpenRequestByAgent' => 'Відкриті запити за виконавцем',
