@@ -44,25 +44,25 @@ Dict::Add('uk ua', 'Ukraine', 'Українська', array(
 	'Portal:Datatables:Language:Processing' => 'Зачекайте будь ласка...',
 	'Portal:Datatables:Language:Search' => 'Фільтр:~~',
 	'Portal:Datatables:Language:LengthMenu' => 'Відображати _MENU_ елементів на сторінку',
-	'Portal:Datatables:Language:ZeroRecords' => 'No result~~',
-	'Portal:Datatables:Language:Info' => 'Page _PAGE_ of _PAGES_~~',
-	'Portal:Datatables:Language:InfoEmpty' => 'No information~~',
-	'Portal:Datatables:Language:InfoFiltered' => 'filtered out of _MAX_ items~~',
-	'Portal:Datatables:Language:EmptyTable' => 'No data available in this table~~',
-	'Portal:Datatables:Language:DisplayLength:All' => 'All~~',
-	'Portal:Datatables:Language:Paginate:First' => 'First~~',
-	'Portal:Datatables:Language:Paginate:Previous' => 'Previous~~',
-	'Portal:Datatables:Language:Paginate:Next' => 'Next~~',
-	'Portal:Datatables:Language:Paginate:Last' => 'Last~~',
-	'Portal:Datatables:Language:Sort:Ascending' => 'enable for an ascending sort~~',
-	'Portal:Datatables:Language:Sort:Descending' => 'enable for a descending sort~~',
-	'Portal:Autocomplete:NoResult' => 'No data~~',
-	'Portal:Attachments:DropZone:Message' => 'Drop your files to add them as attachments~~',
-	'Portal:File:None' => 'No file~~',
+	'Portal:Datatables:Language:ZeroRecords' => 'Нічого не знайдено',
+	'Portal:Datatables:Language:Info' => 'Сторінка _PAGE_ з _PAGES_',
+	'Portal:Datatables:Language:InfoEmpty' => 'Інформація відсутня',
+	'Portal:Datatables:Language:InfoFiltered' => 'Відфільтровано з _MAX_ елементів',
+	'Portal:Datatables:Language:EmptyTable' => 'Інформація відсутня у даній таблиці',
+	'Portal:Datatables:Language:DisplayLength:All' => 'Усі',
+	'Portal:Datatables:Language:Paginate:First' => 'Перша',
+	'Portal:Datatables:Language:Paginate:Previous' => 'Попередня',
+	'Portal:Datatables:Language:Paginate:Next' => 'Наступна',
+	'Portal:Datatables:Language:Paginate:Last' => 'Остання',
+	'Portal:Datatables:Language:Sort:Ascending' => 'Сортувати за зростанням',
+	'Portal:Datatables:Language:Sort:Descending' => 'Сортувати за спаданням',
+	'Portal:Autocomplete:NoResult' => 'Інформація відсутня',
+	'Portal:Attachments:DropZone:Message' => 'Перетягніть файли щоб завантажити як додаток',
+	'Portal:File:None' => 'Немає файлу',
 	'Portal:File:DisplayInfo' => '<a href="%2$s" class="file_download_link">%1$s</a>~~',
 	'Portal:File:DisplayInfo+' => '%1$s (%2$s) <a href="%3$s" class="file_open_link" target="_blank">Open</a> / <a href="%4$s" class="file_download_link">Download</a>~~',
-	'Portal:Calendar-FirstDayOfWeek' => 'en-us~~',
-	'Portal:Form:Close:Warning' => 'Do you want to leave this form ? Data entered may be lost~~',
+	'Portal:Calendar-FirstDayOfWeek' => 'uk', // from moment.js
+	'Portal:Form:Close:Warning' => 'Ви дійсно хочете закрити форму? Введену інформацію буде втрачено',
 ));
 
 // UserProfile brick
@@ -81,68 +81,68 @@ Dict::Add('uk ua', 'Ukraine', 'Українська', array(
 
 // AggregatePageBrick
 Dict::Add('uk ua', 'Ukraine', 'Українська', array(
-	'Brick:Portal:AggregatePage:DefaultTitle' => 'Dashboard~~',
+	'Brick:Portal:AggregatePage:DefaultTitle' => 'Дашборд',
 ));
 
 // BrowseBrick brick
 Dict::Add('uk ua', 'Ukraine', 'Українська', array(
-	'Brick:Portal:Browse:Name' => 'Browse throught items~~',
-	'Brick:Portal:Browse:Mode:List' => 'List~~',
-	'Brick:Portal:Browse:Mode:Tree' => 'Tree~~',
-	'Brick:Portal:Browse:Mode:Mosaic' => 'Mosaic~~',
-	'Brick:Portal:Browse:Action:Drilldown' => 'Drilldown~~',
-	'Brick:Portal:Browse:Action:View' => 'Details~~',
-	'Brick:Portal:Browse:Action:Edit' => 'Edit~~',
-	'Brick:Portal:Browse:Action:Create' => 'Create~~',
-	'Brick:Portal:Browse:Action:CreateObjectFromThis' => 'New %1$s~~',
-	'Brick:Portal:Browse:Tree:ExpandAll' => 'Expand all~~',
-	'Brick:Portal:Browse:Tree:CollapseAll' => 'Collapse all~~',
-	'Brick:Portal:Browse:Filter:NoData' => 'No item~~',
+	'Brick:Portal:Browse:Name' => 'Перегляд елементів',
+	'Brick:Portal:Browse:Mode:List' => 'Список',
+	'Brick:Portal:Browse:Mode:Tree' => 'Ієрархія',
+	'Brick:Portal:Browse:Mode:Mosaic' => 'Блоками',
+	'Brick:Portal:Browse:Action:Drilldown' => 'Деталізація',
+	'Brick:Portal:Browse:Action:View' => 'Детальніше',
+	'Brick:Portal:Browse:Action:Edit' => 'Редагувати',
+	'Brick:Portal:Browse:Action:Create' => 'Створити',
+	'Brick:Portal:Browse:Action:CreateObjectFromThis' => 'Новий %1$s~~',
+	'Brick:Portal:Browse:Tree:ExpandAll' => 'Розгорнути все',
+	'Brick:Portal:Browse:Tree:CollapseAll' => 'Згорнути все',
+	'Brick:Portal:Browse:Filter:NoData' => 'Елементи відсутні',
 ));
 
 // ManageBrick brick
 Dict::Add('uk ua', 'Ukraine', 'Українська', array(
-	'Brick:Portal:Manage:Name' => 'Manage items~~',
-	'Brick:Portal:Manage:Table:NoData' => 'No item.~~',
-	'Brick:Portal:Manage:Table:ItemActions' => 'Actions~~',
-	'Brick:Portal:Manage:DisplayMode:list' => 'List~~',
-	'Brick:Portal:Manage:DisplayMode:pie-chart' => 'Pie Chart~~',
-	'Brick:Portal:Manage:DisplayMode:bar-chart' => 'Bar Chart~~',
-	'Brick:Portal:Manage:Others' => 'Others~~',
-	'Brick:Portal:Manage:All' => 'All~~',
-	'Brick:Portal:Manage:Group' => 'Group~~',
-	'Brick:Portal:Manage:fct:count' => 'Total~~',
-	'Brick:Portal:Manage:fct:sum' => 'Sum~~',
-	'Brick:Portal:Manage:fct:avg' => 'Average~~',
-	'Brick:Portal:Manage:fct:min' => 'Min~~',
-	'Brick:Portal:Manage:fct:max' => 'Max~~',
+	'Brick:Portal:Manage:Name' => 'Керувати елементами',
+	'Brick:Portal:Manage:Table:NoData' => 'елементи відсутні',
+	'Brick:Portal:Manage:Table:ItemActions' => 'Дії',
+	'Brick:Portal:Manage:DisplayMode:list' => 'Список',
+	'Brick:Portal:Manage:DisplayMode:pie-chart' => 'Кругова діаграма',
+	'Brick:Portal:Manage:DisplayMode:bar-chart' => 'Стовпчаста діаграма',
+	'Brick:Portal:Manage:Others' => 'Інші',
+	'Brick:Portal:Manage:All' => 'Усі',
+	'Brick:Portal:Manage:Group' => 'Група',
+	'Brick:Portal:Manage:fct:count' => 'Загалом',
+	'Brick:Portal:Manage:fct:sum' => 'Сума',
+	'Brick:Portal:Manage:fct:avg' => 'Середнє',
+	'Brick:Portal:Manage:fct:min' => 'Мінімальне',
+	'Brick:Portal:Manage:fct:max' => 'Максимальне',
 ));
 
 // ObjectBrick brick
 Dict::Add('uk ua', 'Ukraine', 'Українська', array(
-	'Brick:Portal:Object:Name' => 'Object~~',
-	'Brick:Portal:Object:Form:Create:Title' => 'New %1$s~~',
-	'Brick:Portal:Object:Form:Edit:Title' => 'Updating %2$s (%1$s)~~',
+	'Brick:Portal:Object:Name' => 'Об’єкт',
+	'Brick:Portal:Object:Form:Create:Title' => 'Створити %1$s~~',
+	'Brick:Portal:Object:Form:Edit:Title' => 'Оновлення %2$s (%1$s)~~',
 	'Brick:Portal:Object:Form:View:Title' => '%1$s: %2$s~~',
-	'Brick:Portal:Object:Form:Stimulus:Title' => 'Please, complete the following information:~~',
-	'Brick:Portal:Object:Form:Message:Saved' => 'Saved~~',
-	'Brick:Portal:Object:Form:Message:ObjectSaved' => '%1$s saved~~',
-	'Brick:Portal:Object:Search:Regular:Title' => 'Select %1$s (%2$s)~~',
-	'Brick:Portal:Object:Search:Hierarchy:Title' => 'Select %1$s (%2$s)~~',
+	'Brick:Portal:Object:Form:Stimulus:Title' => 'Будь ласка, введіть наступну інформацію',
+	'Brick:Portal:Object:Form:Message:Saved' => 'Збережено',
+	'Brick:Portal:Object:Form:Message:ObjectSaved' => '%1$s збережено',
+	'Brick:Portal:Object:Search:Regular:Title' => 'Вибрати %1$s (%2$s)',
+	'Brick:Portal:Object:Search:Hierarchy:Title' => 'Вибрати %1$s (%2$s)~~',
 	'Brick:Portal:Object:Copy:TextToCopy' => '%1$s: %2$s~~',
-	'Brick:Portal:Object:Copy:Tooltip' => 'Copy object link~~',
-	'Brick:Portal:Object:Copy:CopiedTooltip' => 'Copied'
+	'Brick:Portal:Object:Copy:Tooltip' => 'Копіювати посилання на об’єкт',
+	'Brick:Portal:Object:Copy:CopiedTooltip' => 'Посилання скопійовано'
 ));
 
 // CreateBrick brick
 Dict::Add('uk ua', 'Ukraine', 'Українська', array(
-	'Brick:Portal:Create:Name' => 'Quick creation~~',
-	'Brick:Portal:Create:ChooseType' => 'Please, choose a type~~',
+	'Brick:Portal:Create:Name' => 'Швидке створення',
+	'Brick:Portal:Create:ChooseType' => 'Будь ласка, виберіть тип',
 ));
 
 // Filter brick
 Dict::Add('uk ua', 'Ukraine', 'Українська', array(
-	'Brick:Portal:Filter:Name' => 'Prefilter a brick~~',
-	'Brick:Portal:Filter:SearchInput:Placeholder' => 'eg. connect wifi~~',
-	'Brick:Portal:Filter:SearchInput:Submit' => 'Search~~',
+	'Brick:Portal:Filter:Name' => 'фільтр',
+	'Brick:Portal:Filter:SearchInput:Placeholder' => 'на приклад, підключити wifi',
+	'Brick:Portal:Filter:SearchInput:Submit' => 'Знайти',
 ));
