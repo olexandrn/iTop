@@ -114,7 +114,7 @@ Dict::Add('uk ua', 'Ukraine', 'Українська', array(
 	'Class:UserRequest/Attribute:request_type/Value:service_request+' => 'Запит на стандартну зміну, доступ, отримання інформації, або консультацію',
 	'Class:UserRequest/Attribute:impact' => 'Рівень впливу',
 	'Class:UserRequest/Attribute:impact+' => '~~',
-	'Class:UserRequest/Attribute:impact/Value:1' => 'Департамент',
+	'Class:UserRequest/Attribute:impact/Value:1' => 'Організація',
 	'Class:UserRequest/Attribute:impact/Value:1+' => '~~',
 	'Class:UserRequest/Attribute:impact/Value:2' => 'Сервіс',
 	'Class:UserRequest/Attribute:impact/Value:2+' => '~~',
@@ -268,7 +268,7 @@ Dict::Add('uk ua', 'Ukraine', 'Українська', array(
 	'Class:UserRequest/Stimulus:ev_close+' => '~~',
 	'Class:UserRequest/Stimulus:ev_reopen' => 'Відкрити повторно',
 	'Class:UserRequest/Stimulus:ev_reopen+' => '~~',
-	'Class:UserRequest/Stimulus:ev_wait_for_approval' => 'На погодженні',
+	'Class:UserRequest/Stimulus:ev_wait_for_approval' => 'Виконати погодження',
 	'Class:UserRequest/Stimulus:ev_wait_for_approval+' => '~~',
 	'Class:UserRequest/Error:CannotAssignParentRequestIdToSelf' => 'Неможливо пов’язати запист із самим собою',
 ));
